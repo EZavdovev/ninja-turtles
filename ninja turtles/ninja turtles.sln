@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ninja turtles", "ninja turtles\ninja turtles.vcxproj", "{BECC5ABA-82AC-4880-B68F-B49444D18769}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BECC5ABA-82AC-4880-B68F-B49444D18769}.Debug|x64.ActiveCfg = Debug|x64
+		{BECC5ABA-82AC-4880-B68F-B49444D18769}.Debug|x64.Build.0 = Debug|x64
+		{BECC5ABA-82AC-4880-B68F-B49444D18769}.Debug|x86.ActiveCfg = Debug|Win32
+		{BECC5ABA-82AC-4880-B68F-B49444D18769}.Debug|x86.Build.0 = Debug|Win32
+		{BECC5ABA-82AC-4880-B68F-B49444D18769}.Release|x64.ActiveCfg = Release|x64
+		{BECC5ABA-82AC-4880-B68F-B49444D18769}.Release|x64.Build.0 = Release|x64
+		{BECC5ABA-82AC-4880-B68F-B49444D18769}.Release|x86.ActiveCfg = Release|Win32
+		{BECC5ABA-82AC-4880-B68F-B49444D18769}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B5BE9A1-BAE6-4082-9A78-AA50C226EA25}
+	EndGlobalSection
+EndGlobal
