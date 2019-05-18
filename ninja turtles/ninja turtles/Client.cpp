@@ -10,7 +10,7 @@ void Client::add_ready_for_order(Dish order) {
 	ready_for_order.insert({ order.foodname_,order });
 }
 
-Dish Client::give_order_to_waiter(Dish order) {
+Dish Client::give_order(Dish order) {
 	if (ready_for_order.find(order.foodname_) != ready_for_order.end()) {
 		order.username_ = name_;
 		return order;

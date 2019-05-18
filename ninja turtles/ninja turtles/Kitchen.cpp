@@ -5,7 +5,7 @@
 Kitchen::Kitchen(){
 }
 
-void Kitchen::get_order_from_waiter(Dish order) {
+void Kitchen::get_order(Dish order) {
 	if (ready_for_cook.find(order.foodname_) == ready_for_cook.end())
 		ready_for_cook.insert({ order.foodname_,order });
 }
@@ -17,7 +17,7 @@ void Kitchen::cooking(Dish order) {
 	}
 }
 
-Dish Kitchen::give_dish_for_waiter(Dish order) {
+Dish Kitchen::give_dish(Dish order) {
 	if (ready_for_eat.find(order.foodname_) != ready_for_eat.end()) {
 		order.ready_ = true;
 		ready_for_eat.erase(order.foodname_);

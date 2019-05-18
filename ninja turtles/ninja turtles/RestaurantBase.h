@@ -4,10 +4,12 @@
 #include<set>
 #include<map>
 #include"Dish.h"
+typedef std::string type_dish;
+typedef std::string name_dish;
 class RestaurantBase
 {
 private:
-	std::map<std::string,std::set<std::string>> menu;
+	std::map<type_dish,std::set<name_dish>> menu;
 	std::set<std::string> cooker;
 public:
 	RestaurantBase();
